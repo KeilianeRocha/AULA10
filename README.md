@@ -47,7 +47,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Título do Site</title>
-    <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
    <main>
@@ -78,6 +77,46 @@
 4. Criei uma segunda `new branch` no menu do Github Desktop
    
    ↪️ O nome dado para a `new branch` ➡️ `design`.
+   * Adicionei o comando ` <link rel="stylesheet" href="estilos/style.css">` no VSCode 
+   * ↪️ Como eu não havia criado uma pasta com atributos Gráficos de CSS, o VSCode pediu para eu criar essa pasta
+   * A pasta foi criada
+   *  * Com o comando `*{}` Adicionei os atributos gráficos do meu projeto
+
+```
+*{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+}
+
+body {
+    background-color: rgb(161, 72, 40);
+
+}
+
+main {
+    background-color: rgb(112, 45, 19);
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 3px 3px 5px rgb(0, 0, 0.473);
+}
+```
+   * Em seguida comentei no Github Desktop e dei um `Commit`
+   * Logo após comitar, o Github Deskitop pediu para eu dá um ´Push origem´ ou seja: (carregar as alterações para o meu repositório remoto = Github
+### Passo 2
+
+1. Fazer a união das três `branches` criadas 
+
+   ![image](https://user-images.githubusercontent.com/109313933/184496027-ffdb0542-323b-4860-89ec-c530a04d9954.png)
+
+
+   ↪️ No Github Desktop eu cliquei em: 
+   `Branch` ➡️ `Merge into current branch ou (Ctrl+Shift+M)`
+   ↪️ Cliquei na `branch conteúdo` ➡️ clico em `Creata merge commit`
+   * mesmo procedimento pra as demais
+   * Ao final a ´branch´ vai conter todas as auterações feitas nas `branches conteúdo e design`
    
-5. 
+![image](https://user-images.githubusercontent.com/109313933/184496347-275fdb9f-1e8a-40a6-9fab-59d236be3fe6.png)
+ 
+   
    
