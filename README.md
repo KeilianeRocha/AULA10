@@ -1,21 +1,23 @@
-# Git Branches 
- ## Criei um site e apliquei os conhecimentos sobre Branches (ramificações dentro do Git/Github)
- 
- ### Passo 1
- 
- 1. Criei um novo repositório/projeto `main` dentro do Github Desktop, 
- 
-    ↪️ Os componentes do projeto foram:
-    * .gitattributes;
-    * License _usei MIT_;
-    * Readme.md.
+# Git Branches
 
+## Criei um site e apliquei os conhecimentos sobre Branches (ramificações dentro do Git/Github)
+
+### Passo 1
+
+1. Criei um novo repositório/projeto `main` dentro do Github Desktop,
+
+   ↪️ Os componentes do projeto foram:
+
+   * .gitattributes;
+   * License _usei MIT_;
+   * Readme.md.
 2. Abri meu projeto no Visual Studio Code
 
    ↪️ Criei a pasta de HTML `index.html`.
+
    * Com o comando `!`
-  
-  ```
+
+```
   <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,16 +30,16 @@
    
 </body>
 </html>
- ```
- 
-   * Em seguida comentei no Github Desktop e dei um `Commit`
-   * Logo após comitar, o Github Deskitop pediu para eu dá um `Push origem` ou seja: (carregar as alterações para o meu repositório remoto = Github
+```
+
+* Em seguida comentei no Github Desktop e dei um `Commit`
+* Logo após comitar, o Github Deskitop pediu para eu dá um `Push origem` ou seja: (carregar as alterações para o meu repositório remoto = Github
 
 3. Criei um `new branch` no menu do Github Desktop
 
    ↪️ O nome dado para a `new branch` ➡️ `conteúdo`.
-   
-   *  Adicionei os componentes de : `</link>, </body>, </main>, </h1>, </article>, </h2> e </p>`
+
+   * Adicionei os componentes de : `</link>, </body>, </main>, </h1>, </article>, </h2> e </p>`
 
 ```
 <!DOCTYPE html>
@@ -71,16 +73,18 @@
 </body>
 </html>
 ```
-   * Em seguida comentei no Github Desktop e dei um `Commit`
-   * Logo após comitar, o Github Deskitop pediu para eu dá um `Push origem` ou seja: (carregar as alterações para o meu repositório remoto = Github
-   
+
+* Em seguida comentei no Github Desktop e dei um `Commit`
+* Logo após comitar, o Github Deskitop pediu para eu dá um `Push origem` ou seja: (carregar as alterações para o meu repositório remoto = Github
+
 4. Criei uma segunda `new branch` no menu do Github Desktop
-   
-   ↪️ O nome dado para a `new branch` ➡️ `design`. 
-   * Adicionei o comando ` <link rel="stylesheet" href="estilos/style.css">` no VSCode 
+
+   ↪️ O nome dado para a `new branch` ➡️ `design`.
+
+   * Adicionei o comando ` <link rel="stylesheet" href="estilos/style.css">` no VSCode
    * ↪️ Como eu não havia criado uma pasta com atributos Gráficos de CSS, o VSCode pediu para eu criar essa pasta
    * A pasta foi criada
-   *  * Com o comando `*{}` Adicionei os atributos gráficos do meu projeto
+   * * Com o comando `*{}` Adicionei os atributos gráficos do meu projeto
 
 ```
 *{
@@ -101,23 +105,23 @@ main {
     box-shadow: 3px 3px 5px rgb(0, 0, 0.473);
 }
 ```
-   * Em seguida comentei no Github Desktop e dei um `Commit`
-   * Logo após comitar, o Github Deskitop pediu para eu dá um `Push origem` ou seja: (carregar as alterações para o meu repositório remoto = Github
+
+* Em seguida comentei no Github Desktop e dei um `Commit`
+* Logo após comitar, o Github Deskitop pediu para eu dá um `Push origem` ou seja: (carregar as alterações para o meu repositório remoto = Github
+
 ### Passo 2
 
-1. Fazer a união das três `branches` criadas 
+1. Fazer a união das três `branches` criadas
 
    ![image](https://user-images.githubusercontent.com/109313933/184496027-ffdb0542-323b-4860-89ec-c530a04d9954.png)
 
-
-   ↪️ No Github Desktop eu cliquei em: 
+   ↪️ No Github Desktop eu cliquei em:
    `Branch` ➡️ `Merge into current branch ou (Ctrl+Shift+M)`
    ↪️ Cliquei na `branch conteúdo` ➡️ clico em `Creata merge commit`
-   * mesmo procedimento pra as demais
+
+   * Mesmo procedimento pra as demais
    * Ao final a `branch` vai conter todas as auterações feitas nas `branches` __conteúdo e design__ e irão aparecer integradas ao repositório desta forma:
-   
+
    ![image](https://user-images.githubusercontent.com/109313933/184496347-275fdb9f-1e8a-40a6-9fab-59d236be3fe6.png)
- 
-   
-   
+
 > Em construção ...
