@@ -31,7 +31,7 @@
  ```
  
    * Em seguida comentei no Github Desktop e dei um `Commit`
-   * Logo após comitar, o Github Deskitop pediu para eu dá um ´Push origem´ ou seja: (carregar as alterações para o meu repositório remoto = Github
+   * Logo após comitar, o Github Deskitop pediu para eu dá um `Push origem` ou seja: (carregar as alterações para o meu repositório remoto = Github
 
 3. Criei um `new branch` no menu do Github Desktop
 
@@ -72,11 +72,11 @@
 </html>
 ```
    * Em seguida comentei no Github Desktop e dei um `Commit`
-   * Logo após comitar, o Github Deskitop pediu para eu dá um ´Push origem´ ou seja: (carregar as alterações para o meu repositório remoto = Github
+   * Logo após comitar, o Github Deskitop pediu para eu dá um `Push origem` ou seja: (carregar as alterações para o meu repositório remoto = Github
    
 4. Criei uma segunda `new branch` no menu do Github Desktop
    
-   ↪️ O nome dado para a `new branch` ➡️ `design`.
+   ↪️ O nome dado para a `new branch` ➡️ `design`. 
    * Adicionei o comando ` <link rel="stylesheet" href="estilos/style.css">` no VSCode 
    * ↪️ Como eu não havia criado uma pasta com atributos Gráficos de CSS, o VSCode pediu para eu criar essa pasta
    * A pasta foi criada
@@ -102,7 +102,7 @@ main {
 }
 ```
    * Em seguida comentei no Github Desktop e dei um `Commit`
-   * Logo após comitar, o Github Deskitop pediu para eu dá um ´Push origem´ ou seja: (carregar as alterações para o meu repositório remoto = Github
+   * Logo após comitar, o Github Deskitop pediu para eu dá um `Push origem` ou seja: (carregar as alterações para o meu repositório remoto = Github
 ### Passo 2
 
 1. Fazer a união das três `branches` criadas 
@@ -114,9 +114,9 @@ main {
    `Branch` ➡️ `Merge into current branch ou (Ctrl+Shift+M)`
    ↪️ Cliquei na `branch conteúdo` ➡️ clico em `Creata merge commit`
    * mesmo procedimento pra as demais
-   * Ao final a ´branch´ vai conter todas as auterações feitas nas `branches conteúdo e design`
+   * Ao final a `branch` vai conter todas as auterações feitas nas `branches` __conteúdo e design__ e irão aparecer integradas ao repositório desta forma:
    
-![image](https://user-images.githubusercontent.com/109313933/184496347-275fdb9f-1e8a-40a6-9fab-59d236be3fe6.png)
+   ![image](https://user-images.githubusercontent.com/109313933/184496347-275fdb9f-1e8a-40a6-9fab-59d236be3fe6.png)
  
    
    
