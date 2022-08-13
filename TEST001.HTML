@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcule sua idade</title>
+    <style>
+        body {
+            background: rgb(178, 173, 173);
+            color: rgb(111, 6, 6);
+            font: normal 18 pt Arial;   
+        }
+        input {
+            background: pink;
+            color: black;
+            font: normal 12pt Arial;    
+            width: 100px;
+
+        }
+    </style>
+</head>
+<body>
+</script>
+    <h1> A sua idade é?</h1>
+    <input type="datetime" name="txtn1" id="txtn1"> -
+    <input type="datetime" name="txtn2" id="txtn2">
+    <input type="button" value="Subtrair"onclick="Subtrair()">
+    <div id="res">Resultado</div>
+    <script>
+        function Subtrair () {
+            var tn1 = window.document.getElementById('txtn1')
+            var tn2 = window.document.getElementById('txtn2')
+            var res = window.document.getElementById('res')
+            var n1 = Number(tn1.value)
+            var n2 = Number(tn2.value)
+            var Subtrair = n2 - n1
+            res.innerHTML = `A sua idade de ${n1} até ${n2} é <strong>${Subtrair}</strong> `
+            
+        }
+    </script>
+<body>
+<h2> Feliz Aniversário!! Relaxa! a idade é só um número! </h2>
+<p> (E no seu caso é meio alto, né? kkkk) </p>
+<div id="area">
+<strong>Carregando o bolo em 3,2,1...</strong>
+<h3><img src="https://thumbs.gfycat.com/BruisedIgnorantEsok-max-1mb.gif" alt="toma"></h3>
+</body>
+</html>
