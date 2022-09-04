@@ -33,7 +33,7 @@
 ```
 
 * Em seguida comentei no Github Desktop e dei um `Commit`
-* Logo após comitar, o Github Deskitop pediu para eu dá um `Push origem` ou seja: (carregar as alterações para o meu repositório remoto = Github
+* Logo após comitar, o Github Desktop pediu para eu dá um `Push origem` ou seja: (carregar as alterações para o meu repositório remoto = Github
 
 3. Criei um `new branch` no menu do Github Desktop
 
